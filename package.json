@@ -1,0 +1,25 @@
+{
+  "name": "hello-egg",
+  "version": "1.0.0",
+  "description": "一步步创建第一个egg项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houchenll/hello-egg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houchenll/hello-egg/issues"
+  },
+  "homepage": "https://github.com/houchenll/hello-egg#readme",
+  "dependencies": {
+    "egg": "^2.27.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1"
+  }
+}
