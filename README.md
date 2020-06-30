@@ -74,3 +74,21 @@ hello-egg
 npm run dev
 open http://localhost:7001
 ```
+
+### 静态资源
+Egg 内置了 static 插件，线上环境建议部署到 CDN，无需该插件。
+
+static 插件默认映射 /public/* -> app/public/* 目录
+
+此处，我们把静态资源都放到 app/public 目录即可：
+
+```
+app/public
+├── css
+│   └── news.css
+└── js
+    ├── lib.js
+    └── news.js
+```
+
+访问：`http://127.0.0.1:7001/public/image/lake.jpg`  
